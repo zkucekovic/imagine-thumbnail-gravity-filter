@@ -1,33 +1,9 @@
 {
-    "name": "shapecode/imagine-thumbnail-gravity-filter",
-    "description": "Simple extension for imagine to enable thumbnail gravity.",
-    "keywords": [
-        "shapecode",
-        "tenolo",
-        "imagine",
-        "filter",
-        "thumbnail",
-        "gravity"
-    ],
+    "name": "zkucekovic/imagine-thumbnail-gravity-filter",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/shapecode/imagine-thumbnail-gravity-filter",
-    "support": {
-        "email": "support@shapecode.de",
-        "issues": "https://github.com/shapecode/imagine-thumbnail-gravity-filter/issues",
-        "source": "https://github.com/shapecode/imagine-thumbnail-gravity-filter/releases",
-        "wiki": "https://github.com/shapecode/imagine-thumbnail-gravity-filter/wiki"
-    },
-    "authors": [
-        {
-            "name": "Nikita Loges",
-            "homepage": "https://loges.one",
-            "email": "dev@loges.one"
-        }
-    ],
     "require": {
-        "php": "^8.1",
-
+        "php": "^8.0",
         "imagine/imagine": "^1.0"
     },
     "require-dev": {
@@ -66,11 +42,6 @@
         "unuse": "vendor/bin/composer-unused",
         "cs-fix": "./vendor/bin/phpcbf",
         "cs-check": "./vendor/bin/phpcs -s"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0-dev"
-        }
     },
     "prefer-stable": true,
     "config": {
